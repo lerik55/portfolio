@@ -1,3 +1,7 @@
 @import './reset.css';
+.container {
+max-width: 1215px;
 
+
+}
 

@@ -2,81 +2,88 @@
 <html lang="ru">
 
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./styles/index.css">
-   <title>портфолио</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>портфолио</title>
 </head>
 
 <body>
 
-   <header class="header">
+  <header class="header">
+    <div class="container">
+      <nav class="header__nav">
+        <a class="header__logo" href="/">
+          <img src="./img/logo.svg" alt="Лого">
+        </a>
+        <ul class="header__menu">
+          <li class="header__item">
+            <a class="header__link" href="#">Обо мне</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Навыки</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Услуги</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Портфолио</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Отзывы</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="hero">
       <div class="container">
-         <nav class="header__nav">
-            <a class="header__logo" href="/">
-               <img src="./img/logo.svg" alt="Лого">
-            </a>
-            <ul class="header__menu">
-               <li class="header__item">
-                  <a class="header__link" href="#">Обо мне</a>
-               </li>
-               <li class="header__item">
-                  <a class="header__link" href="#">Навыки</a>
-               </li>
-               <li class="header__item">
-                  <a class="header__link" href="#">Услуги</a>
-               </li>
-               <li class="header__item">
-                  <a class="header__link" href="#">Портфолио</a>
-               </li>
-               <li class="header__item">
-                  <a class="header__link" href="#">Отзывы</a>
-               </li>
-               <li class="header__item">
-                  <a class="header__link" href="#">Контакты</a>
-               </li>
-            </ul>
-         </nav>
+        <div class="hero__content">
+          <h1 class="hero__title">
+            <span>
+              Привет, я Старкод
+            </span>
+            frontend-<br>разработчик
+          </h1>
+
+          <a href="" class="hero__scroll">
+            смотреть работы
+            <img src="./img/arrow-down-sign-to-navigate 1.svg" alt="стрелка вниз" width="37" height="23">
+          </a>
+        </div>
       </div>
-   </header>
+    </section>
 
+    <section class="about">
+      <div class="container">
+        <h2 class="about__title title"> Обо мне</h2>
+        <div class="about__text">
+          <p>
+            Приветствую всех на своём сайте! Меня зовут Иван, я из Киева. Занимаюсь
+            фронтенд-разработкой более года. До разработки занимался нелюбимым делом, ходил на нелюбимую работу, не
+            мог понять за что взяться, чтобы дело приносило удовольствие и деньги, пока не наткнулся на один
+            интересный курс
+          </p>
+          <p>
+            С тех пор прошел огонь, воду и медные трубы. Учёба давалась по-разному: где-то легче,
+            где-то сложнее. Каждодневная работа над навыками и усердие, с которым я подходил к обучению, уже через
+            несколько месяцев принесли плоды - я взял первый заказ на фрилансе. С отзывами клиентов и примерами работ
+            можно ознакомиться ниже.
+          </p>
+        </div>
+      </div>
 
-   <main>
-      <section class="hero">
-         <div class="container">
-            <div class="hero__content">
-               <h1 class="hero__title">
-                  <span>
-                     Привет, я Старкод
-                  </span>
-                  frontend-<br>разработчик
-               </h1>
+    </section>
 
-               <a href="" class="hero__scroll">
-                  смотреть работы
-                  <img src="./img/arrow-down-sign-to-navigate 1.svg" alt="стрелка вниз" width="37" height="23">
-               </a>
-            </div>
-         </div>
-      </section>
+  </main>
 
-      <section class="about">
-         <div class="container">
-            <h2 class="about__title title"> Обо мне</h2>
-            <p class="about__text">Приветствую всех на своём сайте! Меня зовут Иван, я из Киева. Занимаюсь
-               фронтенд-разработкой более года. До разработки занимался нелюбимым делом, ходил на нелюбимую работу, не
-               мог понять за что взяться, чтобы дело приносило удовольствие и деньги, пока не наткнулся на один
-               интересный курс</p>
-            <p class="about__text">С тех пор прошел огонь, воду и медные трубы. Учёба давалась по-разному: где-то легче,
-               где-то сложнее. Каждодневная работа над навыками и усердие, с которым я подходил к обучению, уже через
-               несколько месяцев принесли плоды - я взял первый заказ на фрилансе. С отзывами клиентов и примерами работ
-               можно ознакомиться ниже.</p>
-         </div>
-
-      </section>
-   </main>
-
-   <script src="./js/index.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>

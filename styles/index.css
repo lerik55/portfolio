@@ -44,3 +44,58 @@ body {
     font-size: 18px;
     font-weight: 600;
 }
+
+/* --------------hero title-------------------- */
+.hero {
+    background-image: url(../img/bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(35, 82, 222, 0.5);
+    }
+}
+
+.hero__content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 123px;
+
+    span {
+        font-size: 48px;
+        line-height: 65px;
+        font-weight: 400;
+        display: block;
+    }
+}
+
+.hero__scroll {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-weight: 600;
+    font-style: 18px;
+    bottom: 30px;
+
+
+}

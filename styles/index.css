@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: #000;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -13,3 +13,34 @@ body {
 }
 
 /* ---------------------------------- */
+
+.header {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+.container {}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.header__logo {}
+
+.header__menu {
+    display: flex;
+    gap: 35px;
+
+}
+
+.header__item {}
+
+.header__link {
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -18,6 +18,14 @@ body {
 	max-width: 1215px;
 }
 
+.title {
+	margin-bottom: 60px;
+	color: #333;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 130%;
+}
+
 /* ---------------------------------- */
 
 .header {
@@ -130,3 +138,52 @@ body {
 	font-size: 18px;
 	line-height: 25px;
 }
+
+/* ---------Skills-------- */
+.skills {
+	padding: 140px 0;
+}
+.container {
+}
+.skills__title {
+}
+.title {
+}
+.skills__content {
+	display: flex;
+	align-items: center;
+	gap: 75px;
+}
+.skills__image {
+}
+.skills__box {
+	display: flex;
+	flex-direction: column;
+	gap: 85px;
+	width: 100%;
+}
+.skills__item {
+	display: flex;
+   align-items: center;
+}
+.skills__name {
+	min-width: 65px;
+   color: var(--gray);
+   font-size: 18px;
+}
+.skills__line {
+	position: relative;
+	background-color: #dbdbed;
+	width: 100%;
+	max-width: 600px;
+	height: 32px;
+}
+.skills__blue {
+	position: absolute;
+	background-color: var(--blue);
+	width: 100%;
+	max-width: 85%;
+	height: 32px;
+}
+
+/* -------------Services------------- */

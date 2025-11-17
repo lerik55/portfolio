@@ -12,6 +12,12 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+section {
+	padding-block: 140px;
+}
+
+
+
 .container {
 	margin: 0 auto;
 	padding: 0 15px;
@@ -24,6 +30,16 @@ body {
 	font-weight: 700;
 	font-size: 48px;
 	line-height: 130%;
+}
+
+.btn {
+	background-color: var(--blue);
+	padding: 12px 24px;
+	color: #fff;
+	width: fit-content;
+
+	margin: 0 auto;
+
 }
 
 /* ---------------------------------- */
@@ -62,6 +78,7 @@ body {
 
 /* --------------hero title-------------------- */
 .hero {
+	padding: 0;
 	position: relative;
 	background-image: url(../img/bg.webp);
 	background-position: center;
@@ -115,9 +132,7 @@ body {
 }
 
 /* --------------About------- */
-.about {
-	padding: 140px 0;
-}
+.about {}
 
 .about__title {
 	margin-bottom: 60px;
@@ -139,36 +154,41 @@ body {
 
 /* ---------Skills-------- */
 .skills {
-	padding: 140px 0;
+	background-color: #F6F6F8;
 }
-.container {
-}
-.skills__title {
-}
-.title {
-}
+
+.container {}
+
+.skills__title {}
+
+.title {}
+
 .skills__content {
 	display: flex;
 	align-items: center;
 	gap: 75px;
 }
-.skills__image {
-}
+
+.skills__image {}
+
 .skills__box {
 	display: flex;
 	flex-direction: column;
 	gap: 85px;
 	width: 100%;
 }
+
 .skills__item {
 	display: flex;
-   align-items: center;
+	align-items: center;
 }
+
 .skills__name {
 	min-width: 65px;
-   color: var(--gray);
-   font-size: 18px;
+	color: var(--gray);
+	font-size: 18px;
 }
+
 .skills__line {
 	position: relative;
 	background-color: #dbdbed;
@@ -176,6 +196,7 @@ body {
 	max-width: 600px;
 	height: 32px;
 }
+
 .skills__blue {
 	position: absolute;
 	background-color: var(--blue);
@@ -185,3 +206,119 @@ body {
 }
 
 /* -------------Services------------- */
+.services {}
+
+
+.services_title {}
+
+.services_items {
+	justify-content: space-between;
+	display: flex;
+	gap: 16px;
+	flex-wrap: wrap;
+}
+
+.services_item {
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+	max-width: 330px;
+
+
+	img {
+		width: fit-content;
+	}
+}
+
+.services_heading {
+	font-weight: 600px;
+	font-size: 28px;
+}
+
+.services__text {}
+
+/* .............works............. */
+.works {}
+
+.container {}
+
+.works__title {
+	text-align: center;
+}
+
+.title {}
+
+.works__buttons {
+	display: flex;
+	justify-content: center;
+	gap: 35px;
+	margin-bottom: 60px;
+
+}
+
+.works__btn {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 33px;
+}
+
+.works__btn_active {
+	color: var(--blue);
+}
+
+.works__galery {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 45px;
+	margin-bottom: 60px;
+}
+
+.works__link {}
+
+
+
+/* ------------clients----------- */
+.clients {}
+
+
+
+.clients__title {
+	text-align: center;
+}
+
+.title {}
+
+.clients__box {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.clients__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	text-align: center;
+	max-width: 400px;
+}
+
+.clients__quote {}
+
+.clients__author {
+	margin-bottom: 20px;
+	color: var(--blue);
+}
+
+.clients__cite {}
+
+.clients__video {
+	position: relative;
+}
+
+.clients__play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

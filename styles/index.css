@@ -16,8 +16,6 @@ section {
 	padding-block: 140px;
 }
 
-
-
 .container {
 	margin: 0 auto;
 	padding: 0 15px;
@@ -33,13 +31,11 @@ section {
 }
 
 .btn {
+	margin: 0 auto;
 	background-color: var(--blue);
 	padding: 12px 24px;
-	color: #fff;
 	width: fit-content;
-
-	margin: 0 auto;
-
+	color: #fff;
 }
 
 /* ---------------------------------- */
@@ -53,8 +49,8 @@ section {
 	color: #fff;
 }
 
-.container {}
-
+.container {
+}
 
 .header__nav {
 	display: flex;
@@ -62,14 +58,16 @@ section {
 	align-items: center;
 }
 
-.header__logo {}
+.header__logo {
+}
 
 .header__menu {
 	display: flex;
 	gap: 35px;
 }
 
-.header__item {}
+.header__item {
+}
 
 .header__link {
 	font-weight: 600;
@@ -78,12 +76,12 @@ section {
 
 /* --------------hero title-------------------- */
 .hero {
-	padding: 0;
 	position: relative;
 	background-image: url(../img/bg.webp);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	padding: 0;
 	color: #fff;
 
 	&::after {
@@ -132,7 +130,8 @@ section {
 }
 
 /* --------------About------- */
-.about {}
+.about {
+}
 
 .about__title {
 	margin-bottom: 60px;
@@ -154,14 +153,17 @@ section {
 
 /* ---------Skills-------- */
 .skills {
-	background-color: #F6F6F8;
+	background-color: #f6f6f8;
 }
 
-.container {}
+.container {
+}
 
-.skills__title {}
+.skills__title {
+}
 
-.title {}
+.title {
+}
 
 .skills__content {
 	display: flex;
@@ -169,7 +171,8 @@ section {
 	gap: 75px;
 }
 
-.skills__image {}
+.skills__image {
+}
 
 .skills__box {
 	display: flex;
@@ -206,16 +209,17 @@ section {
 }
 
 /* -------------Services------------- */
-.services {}
+.services {
+}
 
-
-.services_title {}
+.services_title {
+}
 
 .services_items {
-	justify-content: space-between;
 	display: flex;
-	gap: 16px;
 	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 16px;
 }
 
 .services_item {
@@ -223,7 +227,6 @@ section {
 	flex-direction: column;
 	gap: 28px;
 	max-width: 330px;
-
 
 	img {
 		width: fit-content;
@@ -235,30 +238,33 @@ section {
 	font-size: 28px;
 }
 
-.services__text {}
+.services__text {
+}
 
 /* .............works............. */
-.works {}
+.works {
+}
 
-.container {}
+.container {
+}
 
 .works__title {
 	text-align: center;
 }
 
-.title {}
+.title {
+}
 
 .works__buttons {
 	display: flex;
 	justify-content: center;
 	gap: 35px;
 	margin-bottom: 60px;
-
 }
 
 .works__btn {
-	font-size: 24px;
 	font-weight: 600;
+	font-size: 24px;
 	line-height: 33px;
 }
 
@@ -273,20 +279,19 @@ section {
 	margin-bottom: 60px;
 }
 
-.works__link {}
-
-
+.works__link {
+}
 
 /* ------------clients----------- */
-.clients {}
-
-
+.clients {
+}
 
 .clients__title {
 	text-align: center;
 }
 
-.title {}
+.title {
+}
 
 .clients__box {
 	display: flex;
@@ -299,18 +304,20 @@ section {
 	flex-direction: column;
 	align-items: center;
 	gap: 20px;
-	text-align: center;
 	max-width: 400px;
+	text-align: center;
 }
 
-.clients__quote {}
+.clients__quote {
+}
 
 .clients__author {
 	margin-bottom: 20px;
 	color: var(--blue);
 }
 
-.clients__cite {}
+.clients__cite {
+}
 
 .clients__video {
 	position: relative;
@@ -321,4 +328,38 @@ section {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+/* ---------STATS------------ */
+.stats {
+	padding-block: 140px;
+}
+.container {
+}
+.stats__items {
+	display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 17px;
+}
+.stats__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	border: 1px solid #dbdbed;
+	background-color: #f6f6f8;
+	padding: 50px;
+   width: 100%;
+	max-width: 280px;
+	text-align: center;
+
+   @media (max-width: 605px) {
+      max-width: 100%;
+   }
+}
+.stats__text {
+}
+.stats__number {
+	font-weight: 600;
+	font-size: 44px;
 }

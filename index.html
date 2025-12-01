@@ -149,30 +149,42 @@
          <div class="container">
             <h3 class="works__title title">Мои работы</h3>
             <div class="works__buttons">
-               <button class="works__btn works__btn_active" type="button">Все работы</button>
-               <button class="works__btn" type="button">Лендинги</button>
-               <button class="works__btn" type="button">Корпаративные</button>
-               <button class="works__btn" type="button">Е-commerce</button>
+               <button class="works__btn works__btn_active" data-filter="all" type="button">Все работы</button>
+               <button class="works__btn" type="button" data-filter=".land">Лендинги</button>
+               <button class="works__btn" type="button" data-filter=".corp">Корпаративные</button>
+               <button class="works__btn" type="button" data-filter=".ecom">Е-commerce</button>
             </div>
             <div class="works__galery">
-               <a href="./img/works/img1.webp" data-fancybox="gallery" class="works__link">
-                  <img src="./img/works/img1.webp" alt="">
-               </a>
-               <a href="./img/works/img2.webp" data-fancybox="gallery" class="works__link">
-                  <img src="./img/works/img2.webp" alt="">
-               </a>
-               <a href="./img/works/img3.webp" data-fancybox="gallery" class="works__link">
-                  <img src="./img/works/img3.webp" alt="">
-               </a>
-               <a href="./img/works/img4.webp" data-fancybox="gallery" class="works__link">
-                  <img src="./img/works/img4.webp" alt="">
-               </a>
-               <a href="./img/works/img5.webp" data-fancybox="gallery" class="works__link">
-                  <img src="./img/works/img5.webp" alt="">
-               </a>
-               <a href="./img/works/img6.webp" data-fancybox="gallery" class="works__link">
-                  <img src="./img/works/img6.webp" alt="">
-               </a>
+               <div class="works__item mix land">
+                  <a href="./img/works/img1.webp" data-fancybox="gallery" class="works__link">
+                     <img src="./img/works/img1.webp" alt="">
+                  </a>
+               </div>
+               <div class="works__item mix corp">
+                  <a href="./img/works/img2.webp" data-fancybox="gallery" class="works__link">
+                     <img src="./img/works/img2.webp" alt="">
+                  </a>
+               </div>
+               <div class="works__item mix ecom">
+                  <a href="./img/works/img3.webp" data-fancybox="gallery" class="works__link">
+                     <img src="./img/works/img3.webp" alt="">
+                  </a>
+               </div>
+               <div class="works__item mix land">
+                  <a href="./img/works/img4.webp" data-fancybox="gallery" class="works__link">
+                     <img src="./img/works/img4.webp" alt="">
+                  </a>
+               </div>
+               <div class="works__item mix corp">
+                  <a href="./img/works/img5.webp" data-fancybox="gallery" class="works__link">
+                     <img src="./img/works/img5.webp" alt="">
+                  </a>
+               </div>
+               <div class="works__item mix ecom">
+                  <a href="./img/works/img6.webp" data-fancybox="gallery" class="works__link">
+                     <img src="./img/works/img6.webp" alt="">
+                  </a>
+               </div>
             </div>
             <div class="works__btn btn">Загрузить еще</div>
          </div>
@@ -194,10 +206,11 @@
                      </cite>
                   </blockquote>
                </div>
-               <div class="clients__video">
-                  <video src="" poster="./img/video.webp"></video>
+               <a class="clients__video" href="./img/video.mp4" data-fancybox data-width="570" data-height="400">
+                  <!-- <video src="./img/video.mp4" controls width="570" height="400" poster="./img/video.webp"></video> -->
+                  <img src="./img/video.webp" alt="">
                   <img class="clients__play" src="./img/play.svg" alt="">
-               </div>
+               </a>
             </div>
          </div>
       </section>
@@ -289,6 +302,7 @@
    </footer>
 
    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+   <script src="./js/mixitup.min.js"></script>
    <script src="./js/index.js"></script>
 </body>
 

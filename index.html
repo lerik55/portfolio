@@ -2,72 +2,72 @@
 <html lang="ru">
 
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
-   <link rel="stylesheet" href="./styles/index.css">
-   <title>портфолио</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>портфолио</title>
 </head>
 
 <body>
 
-   <header class="header">
+  <header class="header">
+    <div class="container">
+      <nav class="header__nav">
+        <a class="header__logo" href="/">
+          <img src="./img/logo.svg" alt="Лого">
+        </a>
+        <ul class="header__menu">
+          <li class="header__item">
+            <a class="header__link" href="#">Обо мне</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Навыки</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Услуги</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Портфолио</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Отзывы</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Контакты</a>
+          </li>
+        </ul>
+
+        <button class="header__burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="hero">
       <div class="container">
-         <nav class="header__nav">
-            <a class="header__logo" href="/">
-               <img src="./img/logo.svg" alt="Лого">
-            </a>
-            <ul class="header__menu">
-               <li class="header__item">
-                  <a class="header__link" href="#">Обо мне</a>
-               </li>
-               <li class="header__item">
-                  <a class="header__link" href="#">Навыки</a>
-               </li>
-               <li class="header__item">
-                  <a class="header__link" href="#">Услуги</a>
-               </li>
-               <li class="header__item">
-                  <a class="header__link" href="#">Портфолио</a>
-               </li>
-               <li class="header__item">
-                  <a class="header__link" href="#">Отзывы</a>
-               </li>
-               <li class="header__item">
-                  <a class="header__link" href="#">Контакты</a>
-               </li>
-            </ul>
+        <div class="hero__content">
+          <h1 class="hero__title">
+            <span>
+              Привет, я Старкод
+            </span>
+            frontend-<br>разработчик
+          </h1>
 
-            <button class="header__burger">
-               <span></span>
-               <span></span>
-               <span></span>
-            </button>
-         </nav>
+          <a href="" class="hero__scroll">
+            смотреть работы
+            <img src="./img/arrow-down-sign-to-navigate 1.svg" alt="стрелка вниз" width="37" height="23">
+          </a>
+        </div>
       </div>
-   </header>
+    </section>
 
-
-   <main>
-       <section class="hero">
-         <div class="container">
-            <div class="hero__content">
-               <h1 class="hero__title">
-                  <span>
-                     Привет, я Старкод
-                  </span>
-                  frontend-<br>разработчик
-               </h1>
-
-               <a href="" class="hero__scroll">
-                  смотреть работы
-                  <img src="./img/arrow-down-sign-to-navigate 1.svg" alt="стрелка вниз" width="37" height="23">
-               </a>
-            </div>
-         </div>
-      </section>
-
-   <!--    <section class="about">
+    <section class="about">
       <div class="container">
         <h2 class="about__title title"> Обо мне</h2>
         <div class="about__text">
@@ -178,7 +178,7 @@
       </div>
     </section>
 
-    <section class="clients">
+    <!-- <section class="clients">
       <div class="container">
         <h3 class="clients__title title">Отзывы клиентов</h3>
         <div class="clients__box">
@@ -277,16 +277,16 @@
         </div>
     </section> -->
 
-   </main>
+  </main>
 
-   <footer class="footer">
-      <a class="footer" href="/">
-         <img src="./img/logo.svg" alt="Лого">
-      </a>
-   </footer>
+  <footer class="footer">
+    <a class="footer" href="/">
+      <img src="./img/logo.svg" alt="Лого">
+    </a>
+  </footer>
 
-   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
-   <script src="./js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>

@@ -25,6 +25,14 @@ main {
 
 section {
    padding-block: 140px;
+
+   @media (max-width: 1024px) {
+      padding-block: 100px;
+   }
+
+   @media (max-width: 866px) {
+      padding-block: 60px;
+   }
 }
 
 .container {
@@ -58,6 +66,12 @@ section {
    z-index: 50;
    width: 100%;
    color: white;
+
+
+
+   @media (max-width: 768px) {
+      top: 25px;
+   }
 }
 
 .container {}
@@ -77,9 +91,15 @@ section {
    display: flex;
    gap: 35px;
 
+
+
+   @media (max-width: 1024px) {
+      gap: 25px;
+   }
+
    @media (max-width: 768px) {
       position: absolute;
-      top: -75px;
+      top: -25px;
       left: -400%;
       flex-direction: column;
       justify-content: center;
@@ -184,13 +204,32 @@ section {
 .hero__title {
    font-weight: 700;
    font-size: 90px;
-   line-height: 123px;
+   line-height: 1.36;
 
    span {
       display: block;
       font-weight: 400;
       font-size: 48px;
       line-height: 65px;
+   }
+
+
+   @media (max-width: 768px) {
+      font-size: 80px;
+
+      span {
+         font-size: 36px;
+      }
+
+   }
+
+   @media (max-width: 567px) {
+      font-size: 50px;
+
+      span {
+         font-size: 26px;
+      }
+
    }
 }
 
@@ -206,6 +245,8 @@ section {
    font-style: 18px;
    font-weight: 600;
 }
+
+
 
 /* --------------About------- */
 .about {}
@@ -235,7 +276,12 @@ section {
 
 .container {}
 
-.skills__title {}
+.skills__title {
+   @media (max-width: 866px) {
+      text-align: center;
+   }
+
+}
 
 .title {}
 
@@ -243,11 +289,17 @@ section {
    display: flex;
    align-items: center;
    gap: 75px;
+
+   @media (max-width: 866px) {
+      flex-direction: column;
+      gap: 30px;
+   }
 }
 
 .skills__image {}
 
 .skills__box {
+   max-width: 667px;
    display: flex;
    flex-direction: column;
    gap: 85px;
